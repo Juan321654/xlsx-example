@@ -7,3 +7,5 @@ let wb = xlsx.readFile(path.join(__dirname, 'Book1.xlsx'));
 
     let jsonSheet =  xlsx.utils.sheet_to_json(sheet, {range: 2});
 ```
+
+in the npm site you can see more option https://www.npmjs.com/package/xlsx
